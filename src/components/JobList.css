@@ -1,0 +1,57 @@
+/* src/components/JobList.css */
+
+.job-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .job-list > div {
+    display: flex;
+    gap: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  
+  .job-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .job-details h3 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .job-details p {
+    margin: 0;
+  }
+  
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .tech-badge {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+  }
+  
+  .ctc {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
